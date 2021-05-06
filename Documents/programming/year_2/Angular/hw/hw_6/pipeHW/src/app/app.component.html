@@ -1,0 +1,11 @@
+<p>my birthday is {{ birthday | date }}</p>
+<p>my birthday is {{ birthday | date:'fullDate' }}</p>
+<p>my birthday is {{ birthday | date:'mm yyyy dd' }}</p>
+<p>{{ birthday | date:'M/d/yy' }}</p>
+<p>my mark is {{ mark | percent :'4.3-5'}}</p>
+<p>my mark is {{ mark | percent :'4.3-5':'fr'}}</p>
+<p>my mark is {{ mark | percent }}</p>
+<p>currency: {{cunc | currency:'CAD'}}</p>
+<p>currency: {{cunc | currency:'ILS'}}</p>
+
+
